@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B222DFD1-48D9-4611-92ED-71710758E586}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QCOH</RootNamespace>
+    <AssemblyName>QCOH</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bfTool.cs" />
+    <Compile Include="Crypto\crypto.cs" />
+    <Compile Include="diskWriter.cs" />
+    <Compile Include="fileUtil.cs" />
+    <Compile Include="FIREHOSE\firehose_factory.cs" />
+    <Compile Include="FIREHOSE\firehose_manager.cs" />
+    <Compile Include="FIREHOSE\firehose_util.cs" />
+    <Compile Include="dlgSelectPartition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSelectPartition.Designer.cs">
+      <DependentUpon>dlgSelectPartition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SAHARA\Sahara_Util.cs" />
+    <Compile Include="SAHARA\Sahara_Manager.cs" />
+    <Compile Include="SerialPortIO.cs" />
+    <Compile Include="uiManager.cs" />
+    <Compile Include="SerialPortCommunicationManager.cs" />
+    <Compile Include="util.cs" />
+    <Compile Include="XML\xmlEngine.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSelectPartition.resx">
+      <DependentUpon>dlgSelectPartition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Resources\Pix_NPRG.bin" />
+    <None Include="Resources\4060A_MODEM.img" />
+    <None Include="Resources\4060W.bin" />
+    <None Include="Resources\4060_SIMLOCK_TEST.bin" />
+    <None Include="Resources\5044R_UNLOCKED_SIMLOCK.bin" />
+    <None Include="Resources\5044R_UNLOCKED_SIMLOCK_TEST.bin" />
+    <None Include="Resources\FH_4044C.bin" />
+    <None Include="Resources\FH_4044L.bin" />
+    <None Include="Resources\FH_4044T.mbn" />
+    <None Include="Resources\FH_4044T_2.bin" />
+    <None Include="Resources\FH_4044T_3.bin" />
+    <None Include="Resources\FH_4044W.bin" />
+    <None Include="Resources\FH_5044.bin" />
+    <None Include="Resources\FH_5044R.bin" />
+    <None Include="Resources\FH_5046S.bin" />
+    <None Include="Resources\FH_5098O.bin" />
+    <None Include="Resources\FH_A576CC.bin" />
+    <None Include="Resources\INPUT_test.bin" />
+    <None Include="Resources\LG_D500.bin" />
+    <None Include="Resources\MODEM_BACKUPS\4044L_MODEM.bin" />
+    <None Include="Resources\MODEM_BACKUPS\4060A_MODEM2.img" />
+    <None Include="Resources\MODEM_BACKUPS\5044R_MODEM.bin" />
+    <None Include="Resources\MODEM_BACKUPS\MODEM_4044L.img" />
+    <None Include="Resources\MODEM_BACKUPS\MODEM_4060A.img" />
+    <None Include="Resources\PixTMO_NPRG.bin" />
+    <None Include="Resources\SIMLOCK\4044L_LOCKED" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_4044L_DEFAULT.bin" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_4044L_UNLOCKED_test.bin" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_4044T_UNLOCKED.bin" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_5040_UNLOCKED.bin" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_5044R_UNLOCKED.bin" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_5054O_UNLOCKED.bin" />
+    <None Include="Resources\SIMLOCK\SIMLOCK_ATT_LOCKED.bin" />
+    <None Include="Resources\TEST2_INPUT" />
+    <None Include="Resources\x1m0ua00cl10.mbn" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

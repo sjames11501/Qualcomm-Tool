@@ -1,0 +1,33 @@
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\bin\Debug\QCOH.exe.config
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\bin\Debug\QCOH.exe
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\bin\Debug\QCOH.pdb
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\obj\Debug\QCOH.csprojResolveAssemblyReference.cache
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\obj\Debug\QCOH.Properties.Resources.resources
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\obj\Debug\QCOH.csproj.GenerateResource.Cache
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\obj\Debug\QCOH.exe
+c:\users\seth\documents\visual studio 2015\Projects\QCOH\obj\Debug\QCOH.pdb
+C:\Users\Seth\Documents\Visual Studio 2015\Projects\QCOH\obj\Debug\QCOH.Main.resources
+E:\Coding Projects\QCOH\bin\Debug\QCOH.exe.config
+E:\Coding Projects\QCOH\bin\Debug\QCOH.exe
+E:\Coding Projects\QCOH\bin\Debug\QCOH.pdb
+E:\Coding Projects\QCOH\obj\Debug\QCOH.csprojResolveAssemblyReference.cache
+E:\Coding Projects\QCOH\obj\Debug\QCOH.Main.resources
+E:\Coding Projects\QCOH\obj\Debug\QCOH.Properties.Resources.resources
+E:\Coding Projects\QCOH\obj\Debug\QCOH.dlgSelectPartition.resources
+E:\Coding Projects\QCOH\obj\Debug\QCOH.csproj.GenerateResource.Cache
+E:\Coding Projects\QCOH\obj\Debug\QCOH.exe
+E:\Coding Projects\QCOH\obj\Debug\QCOH.pdb
+E:\CodingProjects\QCOH\bin\Debug\QCOH.exe.config
+E:\CodingProjects\QCOH\obj\Debug\QCOH.exe
+E:\CodingProjects\QCOH\obj\Debug\QCOH.pdb
+E:\CodingProjects\QCOH\bin\Debug\QCOH.exe
+E:\CodingProjects\QCOH\bin\Debug\QCOH.pdb
+E:\CodingProjects\QCOH\obj\Debug\QCOH.Main.resources
+E:\CodingProjects\QCOH\obj\Debug\QCOH.Properties.Resources.resources
+E:\CodingProjects\QCOH\obj\Debug\QCOH.dlgSelectPartition.resources
+E:\CodingProjects\QCOH\obj\Debug\QCOH.csproj.GenerateResource.Cache
+E:\CodingProjects\QCOH\obj\Debug\QCOH.csprojAssemblyReference.cache
+E:\CodingProjects\QCOH\obj\Debug\QCOH.csproj.CoreCompileInputs.cache
+E:\CodingProjects\QCOH - Copy\bin\Debug\QCOH.exe.config
+E:\CodingProjects\QCOH - Copy\obj\Debug\QCOH.exe
+E:\CodingProjects\QCOH - Copy\obj\Debug\QCOH.pdb
